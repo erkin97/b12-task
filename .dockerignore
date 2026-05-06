@@ -1,0 +1,16 @@
+.git
+.gitignore
+.venv
+.claude
+node_modules
+**/node_modules
+dist
+**/dist
+__pycache__
+**/__pycache__
+*.pyc
+.pytest_cache
+.vite
+*.md
+TASKS.md
+*.pdf

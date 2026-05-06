@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+"""Entrypoint for `./flight-optimizer --from <city> --to <city> [<city> ...]`."""
+import sys
+
+from flight_optimizer.cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())
